@@ -16,7 +16,7 @@ class RPSGame{
                     if(playerOneInt >= 4 || playerOneInt <= 0){
                         JOptionPane.showMessageDialog(null, "You must choose a valid number!");
                         b = false;
-                    }git
+                    }
                 }
                 catch(Exception e){
                     JOptionPane.showMessageDialog(null, "You must choose a number!");
